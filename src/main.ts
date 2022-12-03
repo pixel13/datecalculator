@@ -11,7 +11,7 @@ try {
   if (error instanceof Error) {
     console.error('ERROR: ' + error.message);
   }
-  console.error('Usage: dc [dd/mm/yyyy] <+|->NN<d|m|y>');
-  console.error('Example: dc +3d');
-  console.error('Example: dc 13/06/2022 -4m');
+  console.error('Usage: dcl [dd/mm/yyyy] <+|->NN<d|m|y>');
+  console.error('Example: dcl +3d');
+  console.error('Example: dcl 13/06/2022 -4m');
 }

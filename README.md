@@ -12,15 +12,15 @@ Then compile the project with:
 
 `npm run compile`
 
-To have `dc` (date calculator) as a globally available command, launch this command from the project root directory:
+To have `dcl` (date calculator) as a globally available command, launch this command from the project root directory:
 
 `npm install -g .`
 
 ### Usage
 
-The basic syntax of `dc` is:
+The basic syntax of `dcl` is:
 
-`dc [startDate] <+|->NN<d|m|y>`
+`dcl [startDate] <+|->NN<d|m|y>`
 
 where:
 
@@ -30,9 +30,9 @@ where:
 
 For example:
 
-- `dc +3m`: current date plus 3 months
-- `dc 13/06/2022 -4d`: calculates the date that's 4 days before 13/06/2022
-- `dc 20y`: current date plus 20 years
+- `dcl +3m`: current date plus 3 months
+- `dcl 13/06/2022 -4d`: calculates the date that's 4 days before 13/06/2022
+- `dcl 20y`: current date plus 20 years
 
 ### Timezone
 
